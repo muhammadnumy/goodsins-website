@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GOODSINS Entertainment</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Playfair Display", serif;
+        background-color: #fefae0;
+        margin: 0;
+        padding: 0;
+        color: #222;
+      }
+      header {
+        background-color: #2b2d42;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        font-family: "Cinzel Decorative", serif;
+      }
+      nav {
+        background-color: #1a1c2c;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        flex-wrap: wrap;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        margin: 8px 15px;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+      nav a:hover {
+        color: #fcbf49;
+      }
+      .hero {
+        padding: 60px 20px;
+        text-align: center;
+        background: linear-gradient(to right, #f77f00, #fcbf49);
+        color: #fff;
+      }
+      .hero button {
+        background-color: #2b2d42;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 15px;
+        transition: background-color 0.3s ease;
+      }
+      .hero button:hover {
+        background-color: #1a1c2c;
+      }
+      .section {
+        padding: 40px 20px;
+        max-width: 1000px;
+        margin: auto;
+      }
+      .marketplace {
+        background-color: #edf6f9;
+        padding: 30px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .art-card {
+        background: #fff;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        width: 200px;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .art-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+      }
+      .art-card img {
+        max-width: 100%;
+        border-radius: 8px;
+      }
+      .art-card button {
+        background-color: #f77f00;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        margin-top: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      .art-card button:hover {
+        background-color: #d65a00;
+      }
+      footer {
+        background-color: #2b2d42;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        font-family: "Cinzel Decorative", serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>GOODSINS Entertainment</h1>
+      <p><em>Where Light Meets Shadow, Stories Begin.</em></p>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#stories">Stories</a>
+      <a href="#comics">Comics</a>
+      <a href="#marketplace">Marketplace</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <section class="hero">
+      <h2>Unleash Your Creativity</h2>
+      <p>Write. Draw. Sell. Inspire.</p>
+      <button>Join the Creators</button>
+    </section>
+
+    <section class="section" id="stories">
+      <h2>🔥 Featured Stories</h2>
+      <p>Read trending stories from the realm of GOODSINS.</p>
+      <!-- Story cards can go here -->
+    </section>
+
+    <section class="section" id="marketplace">
+      <h2>🛒 Art & Craft Marketplace</h2>
+      <p>Support creators by buying or selling original artwork and crafts.</p>
+      <div class="marketplace">
+        <div class="art-card">
+          <img src="https://via.placeholder.com/150" alt="Art Sample" />
+          <h3>Sunset Warrior</h3>
+          <p>$25.00</p>
+          <a href="#buy-art1"><button>Buy Now</button></a>
+        </div>
+        <div class="art-card">
+          <img src="https://via.placeholder.com/150" alt="Art Sample" />
+          <h3>Shadow Eagle</h3>
+          <p>$30.00</p>
+          <a href="#buy-art2"><button>Buy Now</button></a>
+        </div>
+        <div class="art-card">
+          <img src="https://via.placeholder.com/150" alt="Art Sample" />
+          <h3>Savanna Dreams</h3>
+          <p>$40.00</p>
+          <a href="#buy-art3"><button>Buy Now</button></a>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 20px">
+        <button>Sell Your Art</button>
+      </div>
+    </section>
+
+    <footer>
+      <p>Every Story Has Two Sides.</p>
+      <p>&copy; 2025 GOODSINS Entertainment</p>
+    </footer>
+  </body>
+</html>
